@@ -1,0 +1,395 @@
+/*.bor_bottom{
+border-bottom:2px solid #000 ;
+display: inline-block;
+
+
+}*/
+
+
+
+.logo a{
+
+float: left;
+    font-size: .8em;
+    text-transform: capitalize;
+    display: initial;
+    margin: 0;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.logo span{
+
+    color: #30c39e;
+
+}
+
+.header{
+background: linear-gradient(rgba(0,0,0,.5), rgba(0, 0, 0, .5)), url(../image/banner.jpg) ;
+  /*background: rgba(0, 0, 0, 0.5);*/ 
+min-height: 770px;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+.nav li a {
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-left: 0;
+    padding-right: 0;
+    padding: 10px 0;
+}
+
+.nav li a:hover{
+
+color:#30c39e ;
+}
+
+.nav ul li a{
+
+color: #333;
+    padding: 5px 10px;
+    display: block;
+
+}
+
+
+
+.active{
+    color: #30c39e !important;
+
+
+}
+/*banner  start */
+
+.b_sec h2{
+font-size: 65px;
+    display: block;
+    color: #30c39e;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-bottom: 0.2em;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+
+
+}
+.b_sec{    padding-top: 180px;
+  
+  }
+
+  .b_sec h3{
+  	font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  .b_sec h4{
+text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+
+  }
+
+.b_sec p{
+
+color: #fff;
+    margin: 1em 0;
+    line-height: 2em;
+    letter-spacing: 1px;
+    font-size: 16px;
+
+}
+.b_sec a{
+
+padding: 11px 35px;
+    background: none;
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-top: 1.5em;
+    text-decoration: none;
+    border-radius: 2%;
+}
+.b_sec a:hover{
+
+background-color: #30c39e;
+border:0px ;
+transition:.1s ;
+}
+
+/* banner end*/
+.a_head{  
+
+font-size: 45px;
+    text-align: center;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 5px;
+    position: relative;
+    padding:50px 0px ;
+
+ }
+
+ .a_head span::after{
+    position: absolute;
+    content: "";
+    bottom: 26px;
+    left: 45%;
+    width: 10%;
+    height: 3px;
+    background: #333;
+}
+
+
+.about-grids a {
+    padding: 11px 35px;
+    color: #fff;
+    background: #0a8ea0;
+    border: 2px solid #0a8ea0;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    border-radius: 4px;
+    
+}
+
+.s_head {
+font-size: 45px;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 5px;
+    position: relative;
+    padding:50px 0px ;
+
+}
+
+.s_head span::after{
+
+ position: absolute;
+    content: "";
+    bottom: 26px;
+    left: 45%;
+    width: 10%;
+    height: 3px;
+    background: #fff;
+
+
+}
+#services{
+
+    background: #30c39e;
+
+}
+
+.services{
+
+}
+.s_body h3 span{
+color: #fff;
+    font-size: 35px;
+}
+.s_body h3{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+
+
+}
+
+.s_body p{
+    color: #eee;
+    margin: 1em 0;
+    line-height: 30px;
+    letter-spacing: .5px;
+    font-size: 16px;
+
+}
+
+
+.s_body_icon{}
+
+/* experience section start */
+.experience-content .card h5 span:first-child{
+    color: #333;
+    font-weight: 600;
+}
+.experience-content .card-body{
+    background: #F8F9FA;
+    padding: 1.3rem;
+}
+.experience-content .card h5 small{
+    font-size: 14px;
+    color: #fff;
+    background: #30C39E;
+}
+.experience-content .card p{
+    color: #666;
+}
+.section-title{   
+    font-size: 45px;
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+    letter-spacing: 5px;
+    position: relative;
+
+ }
+
+.section-title span::after{
+position: absolute;
+    content: "";
+    bottom: -27px;
+    left: 35%;
+    width: 29%;
+    height: 3px;
+    background: #000;
+
+
+} 
+/* experience section end */
+
+/* blog section start */
+.blog-section{
+    background: url(../image/blog-banner.jpg);
+    background-size: cover;
+}
+.blog-section .section-title span{
+    color: #fff;
+}
+.blog-section .section-title span::after {
+    background: #fff;
+}
+.blog-content-title h2{
+    text-transform: capitalize;
+}
+.blog-content-title p{
+    color: #ccc;
+}
+.blog-content span{
+    color: #333;
+    font-weight: 600;
+}
+.blog-content small{
+    color: #fff;
+    background: #30C39E;
+}
+.blog-content p{
+    color: #999;
+}
+.blog-content a{
+    color: #0a8ea0;
+}
+/* blog section end */
+
+
+
+/* Hire section start */
+.hire-section{
+    background: #0A8EA0;
+}
+.hire-content h2{
+    color: #ddd;
+    font-weight: 600;
+}
+.hire-content p{
+    color: #ddd;
+}
+.hire-content .btn-info {
+    color: #0A8EA0;
+    background-color: #fff;
+    border-color: #fff;
+}
+.hire-content .btn-info:hover {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+}
+.hire-content .btn-primary {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+}
+.hire-content .btn-primary:hover {
+    color: #333;
+    background-color: #fff;
+    border-color: #fff;
+}
+/* Hire section end */
+
+/* Contact section start */
+.address-area h4{
+    color: #333;
+    font-weight: 600;
+}
+.address-area a{
+    color: #666;
+}
+.address-area i{
+    color: #30C39E;
+}
+.address-area iframe{
+    border: 7px solid #d4d4d4;
+    width: 100%;
+    min-height: 200px;
+}
+.contact-form i{
+    color: #30C39E;
+}
+.contact-form .btn-primary {
+    color: #fff;
+    background-color: #0A8EA0;
+    border-color: #0A8EA0;
+    border: 2px solid;
+}
+.contact-form .btn-primary:hover {
+    color: #666;
+    background-color: #fff;
+    border-color: #666;
+}
+/* Contact section end */
+
+/* footer section start */
+footer{
+    background: #191919;
+}
+footer p, footer a{
+    color: #999;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #fff;
+}
+footer ul li a{
+    height: 42px;
+    width: 42px;
+    color: #999;
+    background: #222;
+    display: inline-block;
+}
+footer ul li a i{
+    padding-top: 13px;
+}
+
+
+/* footer section end */
+
